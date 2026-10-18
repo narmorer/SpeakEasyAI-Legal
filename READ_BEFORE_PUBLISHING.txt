@@ -1,7 +1,7 @@
 SpeakEasy AI legal site — review version, October 18, 2026.
 
 Do not present these draft pages as finalized legal disclosures until the operator verifies:
-1. Public support email address. SnapFax App Review lists support@justisend.com, but this has not been confirmed as the public SpeakEasy AI contact.
+1. Public support email address CONFIRMED by the operator as support@justisend.com. Confirm the mailbox receives messages reliably before launch.
 2. Exact voice-recording and transcript flow to AI providers, and whether audio persists or is logged.
 3. Supabase storage region, practices, retention, deletion behavior, backups and account-deletion implementation.
 4. App's intended minimum age, jurisdiction, target countries, and applicable privacy laws.
@@ -13,3 +13,7 @@ Files to upload via GitHub: index.html, privacy.html, terms.html, support.html, 
 On Render Static Site: Build Command blank (if allowed); Publish Directory '.' (root), using the main branch.
 Once deployed, verify HTTPS URLs /privacy.html, /terms.html and /support.html work from a private browsing window.
 Then set supportConfig.js and App Store Connect URLs accordingly, and retest app on physical phone.
+
+This package updates the confirmed support email across the public pages and improves type size/spacing. It does NOT establish accuracy of the outstanding items. Do not remove the remaining notices until verified.
+
+GitHub upload: upload the five website files in this ZIP to the repository ROOT, replacing files with the same names. Do not upload this ZIP as the website. GitHub should show each file as a replacement. Render should auto-deploy after commit.
